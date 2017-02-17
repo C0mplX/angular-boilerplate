@@ -1,0 +1,10 @@
+<form name="signupForm" ng-submit="signupUser(user)" novalidate >
+    <input type="text" ng-model="user.nickname" placeholder="Username" required/>
+    <input type="email" ng-model="user.email" placeholder="Email" required/>
+    <input type="password" ng-model="user.password" placeholder="Password" required/>
+    <input type="submit" value="Signup" />
+</form>
+<div class="error-box" ng-if="error.state">
+    <p ng-repeat="error in error.messages">{{error.msg}}</<p>
+</div>
+<a href="login">Login</a>
