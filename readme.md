@@ -1,7 +1,7 @@
 # AngularJS boilerplate
 
 This project contains a boilerplate for angularJS applications. 
-It contains a light express server, heroku suppert, grunt jobs for SASS and browserify. 
+It contains a light express server, heroku support, grunt jobs for SASS and browserify. 
 
 The projects also includes unit-testing with Karma And Jasmine
 
