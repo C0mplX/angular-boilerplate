@@ -10,7 +10,7 @@ describe( "Unit test", function() {
 
          beforeEach(inject(function(Error) {
             error = Error;
-        } ) )
+        } ) );
 
         it('Error service Should be defined', function() {
             expect(error).toBeDefined();

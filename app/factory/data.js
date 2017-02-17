@@ -1,5 +1,6 @@
 angular.module( 'Data', [] ).factory( "Data", [ '$http', function( $http ) {
 
+  // Set this to the path for your rest API. 
   var serviceBase = 'api/';
 
   var obj = {};
